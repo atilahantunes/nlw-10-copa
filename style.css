@@ -30,13 +30,13 @@ ul {
 }
 
 body {
-  /*  background-color: #121214; 
-  /* background-image: var(--body-bg-image); 
-  /* background-position: top center; 
-  /* background-repeat: no-repeat; 
-  /* background-size: cover; */
-  /* TUDO QUE ESTÁ COMENTADO ESTÁ ABAIXO */
-  background: #121214 var(--body-bg-image) no-repeat top center/cover;
+  /*background-color: #121214;
+  background-image: var(--body-bg-image);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;*/
+  /*TUDO QUE ESTÁ COMENTADO ESTÁ ABAIXO*/
+  background: #121214 var(--body-bg-image) no-repeat top center/contain;
 }
 
 body * {
@@ -46,7 +46,7 @@ body * {
 #app {
   width: fit-content;
   margin: auto;
-  padding-top: 52px;
+  padding-top: 22px;
 }
 
 header {
@@ -92,7 +92,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  width: 270px;
+  width: 250px;
 }
 
 .card ul li {
@@ -142,7 +142,7 @@ header {
 
 @media (min-width: 700px) {
   #cards {
-    max-width: 670px;
+    max-width: 960px;
     flex-direction: row;
     flex-wrap: wrap;
   }
